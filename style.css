@@ -10,9 +10,7 @@ body {
     z-index: 10;
 }
 
-#about {
-    
-}
+#about {}
 
 #events {
     padding-top: 20px
@@ -47,7 +45,7 @@ body {
 }
 
 .jumb h1 {
-    font: normal normal normal 110px/1.4em bebas neue,sans-serif;
+    font: normal normal normal 110px/1.4em bebas neue, sans-serif;
 }
 
 .jumb h1 b {
@@ -55,7 +53,7 @@ body {
 }
 
 .jumb p {
-    font: italic normal normal 35px/1.4em sacramento,cursive;
+    font: italic normal normal 35px/1.4em sacramento, cursive;
 }
 
 .jumb h1, .jumb p {
@@ -117,7 +115,7 @@ hr {
 }
 
 .title {
-    font: italic normal normal 35px/1.4em sacramento,cursive
+    font: italic normal normal 35px/1.4em sacramento, cursive
 }
 
 .title::before {
@@ -161,6 +159,8 @@ hr {
 }
 
 .gallery-img {
+    object-fit: cover;/* Do not scale the image */
+    object-position: center;/* Center the image within the element */
     height: 250px;
     width: 350px;
 }
@@ -180,6 +180,7 @@ hr {
 }
 
 /* mengatur nav */
+
 @media (min-width: 768px) {
     .abs-center-x {
         position: absolute;
